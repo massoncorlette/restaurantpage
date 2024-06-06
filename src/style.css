@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+#heading {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 48px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+#container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+ 
+  background-color: beige;
+}
+
+#pizza {
+  width: 200px;
+  border-radius: 60px;
+}

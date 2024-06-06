@@ -1,0 +1,33 @@
+{
+  "name": "restaurantpage",
+  "version": "1.0.0",
+  "description": "webpack, modules",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massoncorlette/restaurantpage.git"
+  },
+  "keywords": [
+    "webpack",
+    "odinproject"
+  ],
+  "author": "massoncorlette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massoncorlette/restaurantpage/issues"
+  },
+  "homepage": "https://github.com/massoncorlette/restaurantpage#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
