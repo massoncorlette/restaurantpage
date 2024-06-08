@@ -6,6 +6,7 @@ import tomato from './images/tomato.png';
 
 export function homePage() {
   const content = document.getElementById('content');
+  content.innerHTML = '';
 
   const title = document.createElement('div');
   title.id = 'title';

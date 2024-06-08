@@ -7,6 +7,7 @@ import tomato from './images/tomato.png';
 export function menuClick() {
  
     const content = document.getElementById('content');
+    // using innerHTML method to clear page, so menu tab loads in
     content.innerHTML = ''
   
     const title = document.createElement('div');
@@ -64,7 +65,6 @@ export function menuClick() {
     textContainer2.appendChild(tomatoImg);
     textContainer2.appendChild(aboutTxt2);
     container2.appendChild(textContainer2);
-  
   
     content.appendChild(container2);
 };
